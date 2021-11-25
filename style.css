@@ -58,6 +58,79 @@ body{
     text-align: center;
     word-break: break-all;
 }
+.content .author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+
+/* button styling starts */
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+}
+
+/* feature styling starts  */
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    cursor: pointer;
+    color: #3fa037;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #3fa037;
+    transition: all 0.3 ease;
+}
+.features ul li:hover{
+    border: 2px solid #fff;
+    color: #fff;
+    background: #111;
+}
+
+.features button{
+    border: none;
+    outline: none;
+    padding: 13px 22px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #111;
+    color: #fff;
+    border-radius: 30px;
+    transition: all 0.3 ease-out;
+}
+.features button:hover{
+    font-size: 16px;
+    background: #fff;
+    color: #111;
+    border-radius: 2px solid black;
+}
+
+/* CSS inserted by javaScript  */
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+/* feature styling ends */
+/* button styling ends  */
 /* wrapper styling ends  */
 
 
